@@ -1,0 +1,833 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:Azure_SQL|||select [Az-sql-db].dbo.FCT_NYC_Food_Inspections.* 
+from [Az-sql-db].dbo.FCT_NYC_Food_Inspections</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Azure_SQL
+Query=select [Az-sql-db].dbo.FCT_N...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="InspectionSK" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.FCT_NYC_Food_Inspections.* &#xA;from [Az-sql-db].dbo.FCT_NYC_Food_Inspections" type="Int32" />
+            <Field name="Inspection_Date" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.FCT_NYC_Food_Inspections.* &#xA;from [Az-sql-db].dbo.FCT_NYC_Food_Inspections" type="Date" />
+            <Field name="Inspection_Date_SK" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.FCT_NYC_Food_Inspections.* &#xA;from [Az-sql-db].dbo.FCT_NYC_Food_Inspections" type="Int32" />
+            <Field name="FoodPlacesSK" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.FCT_NYC_Food_Inspections.* &#xA;from [Az-sql-db].dbo.FCT_NYC_Food_Inspections" type="Int32" />
+            <Field name="BoroSK" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.FCT_NYC_Food_Inspections.* &#xA;from [Az-sql-db].dbo.FCT_NYC_Food_Inspections" type="Int32" />
+            <Field name="AddressSK" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.FCT_NYC_Food_Inspections.* &#xA;from [Az-sql-db].dbo.FCT_NYC_Food_Inspections" type="Int32" />
+            <Field name="PHONE" size="12" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.FCT_NYC_Food_Inspections.* &#xA;from [Az-sql-db].dbo.FCT_NYC_Food_Inspections" type="String" />
+            <Field name="CUISINE_DESCRIPTION_SK" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.FCT_NYC_Food_Inspections.* &#xA;from [Az-sql-db].dbo.FCT_NYC_Food_Inspections" type="Int32" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.FCT_NYC_Food_Inspections.* &#xA;from [Az-sql-db].dbo.FCT_NYC_Food_Inspections" type="DateTime" />
+            <Field name="DI_WorkflowDirectory" size="256" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.FCT_NYC_Food_Inspections.* &#xA;from [Az-sql-db].dbo.FCT_NYC_Food_Inspections" type="V_WString" />
+            <Field name="DI_WorkflowFileName" size="256" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.FCT_NYC_Food_Inspections.* &#xA;from [Az-sql-db].dbo.FCT_NYC_Food_Inspections" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:Azure_SQL|||select [Az-sql-db].dbo.stg_NYC_FI.* 
+from [Az-sql-db].dbo.stg_NYC_FI</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Azure_SQL
+Query=select [Az-sql-db].dbo.stg_N...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CAMIS" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="Int32" />
+            <Field name="DBA" size="95" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="V_WString" />
+            <Field name="BORO" size="13" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="V_String" />
+            <Field name="BUILDING" size="10" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="V_WString" />
+            <Field name="STREET" size="40" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="V_String" />
+            <Field name="ZIPCODE" size="5" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="String" />
+            <Field name="PHONE" size="12" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="String" />
+            <Field name="CUISINE DESCRIPTION" size="30" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="V_String" />
+            <Field name="INSPECTION DATE" size="10" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="String" />
+            <Field name="ACTION" size="130" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="V_String" />
+            <Field name="VIOLATION CODE" size="5" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="String" />
+            <Field name="VIOLATION DESCRIPTION" size="254" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="V_WString" />
+            <Field name="CRITICAL FLAG" size="14" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="String" />
+            <Field name="SCORE" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="Int16" />
+            <Field name="GRADE" size="1" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="String" />
+            <Field name="GRADE DATE" size="10" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="V_String" />
+            <Field name="RECORD DATE" size="10" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="String" />
+            <Field name="INSPECTION TYPE" size="59" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="V_String" />
+            <Field name="Latitude" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="Double" />
+            <Field name="Longitude" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="Double" />
+            <Field name="Community Board" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="Int16" />
+            <Field name="Council District" size="2" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="String" />
+            <Field name="Census Tract" size="6" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="String" />
+            <Field name="BIN" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="Int32" />
+            <Field name="BBL" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="Int64" />
+            <Field name="NTA" size="4" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="String" />
+            <Field name="Location Point" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="Bool" />
+            <Field name="DI_CreateDT" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="255" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="V_WString" />
+            <Field name="DI_InspectionDate" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="DateTime" />
+            <Field name="DI_GradeDate" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="DateTime" />
+            <Field name="DI_RecordDate" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.stg_NYC_FI.* &#xA;from [Az-sql-db].dbo.stg_NYC_FI" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="246" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="DI_InspectionDate" />
+            <Field field="PHONE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Inspection_Date" />
+            <Field field="PHONE" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_DI_InspectionDate" selected="True" input="Left_" type="Date" size="10" />
+                <SelectField field="Right_PHONE" selected="True" rename="Right_PHONE" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="True" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="Right_BUILDING" selected="True" rename="Right_BUILDING" input="Right_" />
+                <SelectField field="Right_BBL" selected="True" rename="Right_BBL" input="Right_" />
+                <SelectField field="Right_BIN" selected="True" rename="Right_BIN" input="Right_" />
+                <SelectField field="Right_STREET" selected="True" rename="Right_STREET" input="Right_" />
+                <SelectField field="Right_ZIPCODE" selected="True" rename="Right_ZIPCODE" input="Right_" />
+                <SelectField field="Right_BORO" selected="True" rename="Right_BORO" input="Right_" />
+                <SelectField field="Right_NTA" selected="True" rename="Right_NTA" input="Right_" />
+                <SelectField field="Right_Latitude" selected="True" rename="Right_Latitude" input="Right_" />
+                <SelectField field="Right_Longitude" selected="True" rename="Right_Longitude" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="342" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="VIOLATION CODE" />
+            <Field field="VIOLATION DESCRIPTION" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="VIOLATION_CODE" />
+            <Field field="VIOLATION_DESCRIPTION" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_CAMIS" selected="True" input="Left_" />
+                <SelectField field="Left_DBA" selected="True" input="Left_" />
+                <SelectField field="Left_BORO" selected="True" input="Left_" />
+                <SelectField field="Left_BUILDING" selected="True" input="Left_" />
+                <SelectField field="Left_STREET" selected="True" input="Left_" />
+                <SelectField field="Left_ZIPCODE" selected="True" input="Left_" />
+                <SelectField field="Left_PHONE" selected="True" input="Left_" />
+                <SelectField field="Left_CUISINE DESCRIPTION" selected="True" input="Left_" />
+                <SelectField field="Left_INSPECTION DATE" selected="True" input="Left_" />
+                <SelectField field="Left_ACTION" selected="True" input="Left_" />
+                <SelectField field="Left_VIOLATION CODE" selected="True" input="Left_" />
+                <SelectField field="Left_VIOLATION DESCRIPTION" selected="True" input="Left_" />
+                <SelectField field="Left_CRITICAL FLAG" selected="True" input="Left_" />
+                <SelectField field="Left_SCORE" selected="True" input="Left_" />
+                <SelectField field="Left_GRADE" selected="True" input="Left_" />
+                <SelectField field="Left_GRADE DATE" selected="True" input="Left_" />
+                <SelectField field="Left_RECORD DATE" selected="True" input="Left_" />
+                <SelectField field="Left_INSPECTION TYPE" selected="True" input="Left_" />
+                <SelectField field="Left_Latitude" selected="True" input="Left_" />
+                <SelectField field="Left_Longitude" selected="True" input="Left_" />
+                <SelectField field="Left_Community Board" selected="True" input="Left_" />
+                <SelectField field="Left_Council District" selected="True" input="Left_" />
+                <SelectField field="Left_Census Tract" selected="True" input="Left_" />
+                <SelectField field="Left_BIN" selected="True" input="Left_" />
+                <SelectField field="Left_BBL" selected="True" input="Left_" />
+                <SelectField field="Left_NTA" selected="True" input="Left_" />
+                <SelectField field="Left_Location Point" selected="True" input="Left_" />
+                <SelectField field="Left_DI_CreateDT" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowFileName" selected="True" input="Left_" />
+                <SelectField field="Left_DI_InspectionDate" selected="True" input="Left_" />
+                <SelectField field="Left_DI_GradeDate" selected="True" input="Left_" />
+                <SelectField field="Left_DI_RecordDate" selected="True" input="Left_" />
+                <SelectField field="Left_InspectionSK" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection_Date" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection_Date_SK" selected="True" input="Left_" />
+                <SelectField field="Left_FoodPlacesSK" selected="True" input="Left_" />
+                <SelectField field="Left_BoroSK" selected="True" input="Left_" />
+                <SelectField field="Left_AddressSK" selected="True" input="Left_" />
+                <SelectField field="Left_Right_PHONE" selected="True" input="Left_" />
+                <SelectField field="Left_CUISINE_DESCRIPTION_SK" selected="True" input="Left_" />
+                <SelectField field="Left_DI_CreateDate" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowDirectory" selected="True" input="Left_" />
+                <SelectField field="Left_Right_DI_WorkflowFileName" selected="True" rename="Left_Right_DI_WorkflowFileName" input="Left_" />
+                <SelectField field="Right_ViolationCodeSK" selected="True" input="Right_" />
+                <SelectField field="Right_VIOLATION_CODE" selected="True" input="Right_" />
+                <SelectField field="Right_VIOLATION_DESCRIPTION" selected="True" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="True" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="True" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="True" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="Left_Right_BORO" selected="True" rename="Left_Right_BORO" input="Left_" />
+                <SelectField field="Right_BORO" selected="True" rename="Right_BORO" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="210" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:Azure_SQL|||select [Az-sql-db].dbo.Dim_NYC_Violation_Codes.* 
+from [Az-sql-db].dbo.Dim_NYC_Violation_Codes</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Azure_SQL
+Query=select [Az-sql-db].dbo.Dim_N...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ViolationCodeSK" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Violation_Codes.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Violation_Codes" type="Int32" />
+            <Field name="VIOLATION_CODE" size="5" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Violation_Codes.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Violation_Codes" type="String" />
+            <Field name="VIOLATION_DESCRIPTION" size="254" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Violation_Codes.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Violation_Codes" type="V_WString" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Violation_Codes.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Violation_Codes" type="DateTime" />
+            <Field name="DI_WorkflowDirectory" size="256" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Violation_Codes.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Violation_Codes" type="V_WString" />
+            <Field name="DI_WorkflowFileName" size="256" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Violation_Codes.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Violation_Codes" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="450" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ACTION" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ACTION" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Left_Right_DI_WorkflowFileName" selected="True" rename="Left_Left_Right_DI_WorkflowFileName" input="Left_" />
+                <SelectField field="Left_Right_DI_CreateDate" selected="True" rename="Left_Right_DI_CreateDate" input="Left_" />
+                <SelectField field="Left_Right_DI_WorkflowDirectory" selected="True" rename="Left_Right_DI_WorkflowDirectory" input="Left_" />
+                <SelectField field="Left_Right_DI_WorkflowFileName" selected="True" rename="Left_Right_DI_WorkflowFileName" input="Left_" />
+                <SelectField field="Right_ACTION" selected="True" rename="Right_ACTION" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="True" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="True" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="True" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="Right_CAMIS" selected="True" rename="Right_CAMIS" input="Right_" />
+                <SelectField field="Right_DBA" selected="True" rename="Right_DBA" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="354" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:Azure_SQL|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Actions.* 
+from [Az-sql-db].dbo.Dim_NYC_Inspection_Actions</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Azure_SQL
+Query=select [Az-sql-db].dbo.Dim_N...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ActionSK" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Actions.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Actions" type="Int32" />
+            <Field name="ACTION" size="130" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Actions.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Actions" type="V_String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Actions.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Actions" type="DateTime" />
+            <Field name="DI_WorkflowDirectory" size="256" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Actions.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Actions" type="V_WString" />
+            <Field name="DI_WorkflowFileName" size="256" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Actions.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Actions" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="570" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="INSPECTION TYPE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="INSPECTION_TYPE" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Left_Left_Right_DI_WorkflowFileName" selected="True" rename="Left_Left_Left_Right_DI_WorkflowFileName" input="Left_" />
+                <SelectField field="Left_Left_Right_DI_CreateDate" selected="True" rename="Left_Left_Right_DI_CreateDate" input="Left_" />
+                <SelectField field="Left_Left_Right_DI_WorkflowDirectory" selected="True" rename="Left_Left_Right_DI_WorkflowDirectory" input="Left_" />
+                <SelectField field="Left_Left_Right_DI_WorkflowFileName" selected="True" rename="Left_Left_Right_DI_WorkflowFileName" input="Left_" />
+                <SelectField field="Left_Right_DI_CreateDate" selected="True" rename="Left_Right_DI_CreateDate" input="Left_" />
+                <SelectField field="Left_Right_DI_WorkflowDirectory" selected="True" rename="Left_Right_DI_WorkflowDirectory" input="Left_" />
+                <SelectField field="Left_Right_DI_WorkflowFileName" selected="True" rename="Left_Right_DI_WorkflowFileName" input="Left_" />
+                <SelectField field="Right_DI_CreateDate" selected="True" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="True" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="True" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="486" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:Azure_SQL|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Type.* 
+from [Az-sql-db].dbo.Dim_NYC_Inspection_Type</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Azure_SQL
+Query=select [Az-sql-db].dbo.Dim_N...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="InspectionTypeSK" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Type.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Type" type="Int32" />
+            <Field name="INSPECTION_TYPE" size="59" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Type.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Type" type="V_String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Type.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Type" type="DateTime" />
+            <Field name="DI_WorkflowDirectory" size="256" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Type.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Type" type="V_WString" />
+            <Field name="DI_WorkflowFileName" size="256" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Type.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Type" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1182" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Azure_SQL|||FCT_NYC_FoodInspection_Violations</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="InspectionViolationSK" Dest="InspectionViolationSK" />
+                <Field Source="SCORE" Dest="SCORE" />
+                <Field Source="DI_GradeDate" Dest="Grade_Date" />
+                <Field Source="DI_RecordDate" Dest="Record_Date" />
+                <Field Source="InspectionSK" Dest="InspectionSK" />
+                <Field Source="ViolationCodeSK" Dest="ViolationCodeSK" />
+                <Field Source="ActionSK" Dest="ActionSK" />
+                <Field Source="InspectionTypeSK" Dest="InspectionTypeSK" />
+                <Field Source="Right_DI_CreateDate3" Dest="DI_CreateDate" />
+                <Field Source="Right_DI_WorkflowDirectory3" Dest="DI_WorkflowDirectory" />
+                <Field Source="Right_DI_WorkflowFileName2" Dest="DI_WorkflowFileName" />
+                <Field Source="GradeSK" Dest="GradeSK" />
+                <Field Source="CRITICAL_FLAG_SK" Dest="CRITICAL_FLAG_SK" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Azure_SQL
+Query=FCT_NYC_FoodInspection_Viola...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1098" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>InspectionViolationSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="894" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="SCORE" selected="True" />
+            <SelectField field="DI_GradeDate" selected="True" type="Date" size="10" />
+            <SelectField field="DI_RecordDate" selected="True" type="Date" size="10" />
+            <SelectField field="InspectionSK" selected="True" />
+            <SelectField field="ViolationCodeSK" selected="True" />
+            <SelectField field="ActionSK" selected="True" />
+            <SelectField field="InspectionTypeSK" selected="True" />
+            <SelectField field="Right_DI_CreateDate3" selected="True" />
+            <SelectField field="Right_DI_WorkflowDirectory3" selected="True" />
+            <SelectField field="Right_DI_WorkflowFileName2" selected="True" />
+            <SelectField field="GradeSK" selected="True" />
+            <SelectField field="CRITICAL_FLAG_SK" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="606" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:Azure_SQL|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Grades.* 
+from [Az-sql-db].dbo.Dim_NYC_Inspection_Grades</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Azure_SQL
+Query=select [Az-sql-db].dbo.Dim_N...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GradeSK" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Grades.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Grades" type="Int32" />
+            <Field name="GRADE" size="1" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Grades.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Grades" type="String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Grades.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Grades" type="DateTime" />
+            <Field name="DI_WorkflowDirectory" size="256" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Grades.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Grades" type="V_WString" />
+            <Field name="DI_WorkflowFileName" size="256" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=sqladmin;PWD=__EncPwd1__;DATABASE=Az-sql-db;SERVER=anish-az-sql.database.windows.net|||select [Az-sql-db].dbo.Dim_NYC_Inspection_Grades.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Inspection_Grades" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="690" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="GRADE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="GRADE" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_GRADE" selected="True" rename="Right_GRADE" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="True" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="True" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="True" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DI_InspectionDate" selected="True" type="Date" size="10" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="786" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CRITICAL FLAG" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CRITICAL_FLAG" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_DI_CreateDate" selected="True" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="True" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="True" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="726" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:Azure_SQL|||select [Az-sql-db].dbo.Dim_NYC_Critical_Flag.* 
+from [Az-sql-db].dbo.Dim_NYC_Critical_Flag</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Azure_SQL
+Query=select [Az-sql-db].dbo.Dim_N...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CRITICAL_FLAG_SK" source="File: aka:Azure_SQL|||select [Az-sql-db].dbo.Dim_NYC_Critical_Flag.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Critical_Flag" type="Int32" />
+            <Field name="CRITICAL_FLAG" size="14" source="File: aka:Azure_SQL|||select [Az-sql-db].dbo.Dim_NYC_Critical_Flag.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Critical_Flag" type="String" />
+            <Field name="DI_CreateDate" source="File: aka:Azure_SQL|||select [Az-sql-db].dbo.Dim_NYC_Critical_Flag.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Critical_Flag" type="DateTime" />
+            <Field name="DI_WorkflowDirectory" size="256" source="File: aka:Azure_SQL|||select [Az-sql-db].dbo.Dim_NYC_Critical_Flag.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Critical_Flag" type="V_WString" />
+            <Field name="DI_WorkflowFileName" size="256" source="File: aka:Azure_SQL|||select [Az-sql-db].dbo.Dim_NYC_Critical_Flag.* &#xA;from [Az-sql-db].dbo.Dim_NYC_Critical_Flag" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="14" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="17" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="17" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NYC_FI_Part3_c</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="76078c60-ff44-4f3b-a5e5-b4d905d041ca" />
+      <Telemetry>
+        <PreviousWorkflowId value="3a637732-0cff-43c2-b2d5-39eb03e19e2d" />
+        <OriginWorkflowId value="3a637732-0cff-43c2-b2d5-39eb03e19e2d" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
